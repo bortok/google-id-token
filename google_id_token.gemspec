@@ -14,14 +14,14 @@
 # limitations under the License.
 
 Gem::Specification.new do |s|
-  s.name = "google-id-token"
-  s.version = "1.2.0"
+  s.name = "google_id_token"
+  s.version = "1.2.1"
 
-  s.homepage = "https://code.google.com/p/google-id-token/"
+  s.homepage = "https://github.com/bortok/google_id_token"
   s.summary = 'Google ID Token utilities'
-  s.description = 'Google ID Token utilities; currently just a parser/checker'
+  s.description = 'Google ID Token utilities; currently just a parser/checker. Fork from code.google.com/p/google-id-token to fix compatibility issues with latest JWT versions'
 
-  s.files = ["lib/google-id-token.rb", "README.rdoc" ]
+  s.files = ["lib/google_id_token.rb", "README.rdoc" ]
 
   s.add_runtime_dependency "multi_json"
   s.add_runtime_dependency "jwt"
